@@ -1,0 +1,43 @@
+.cover{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.5s;
+
+}
+
+.card1{
+    background-color: rgb(21, 255, 0);
+    width: 50px;
+    height: 100px;
+}
+.card2{
+    background-color: rgb(255, 0, 34);
+    width: 50px;
+    height: 100px;
+}
+.card3{
+    background-color: aqua;
+    width: 50px;
+    height: 100px;
+}
+.card4{
+    background-color: rgb(255, 140, 0);
+    width: 50px;
+    height: 100px;
+}
+.card5{
+    background-color: rgb(255, 0, 162);
+    width: 50px;
+    height: 100px;
+}
+.card6{
+    background-color: rgb(223, 247, 8);
+    width: 50px;
+    height: 100px;
+}
+.cover #card:hover{
+    width: 10%;
+}
+
