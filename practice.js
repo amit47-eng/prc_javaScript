@@ -6,6 +6,6 @@ this.college =college
 }
 let Ravi = new myclass("8th","college")
 
-
+console.log(Ravi);
 
 
