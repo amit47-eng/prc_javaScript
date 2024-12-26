@@ -26,5 +26,14 @@ console.log(prop(2,5));
         let a = document.getElementById("first").value;
         let b = document.getElementById("second").value;
         let c = parseInt(a)-parseInt(b);
+        docume
+        
+        nt.getElementById("result").value = c;
+    }
+    //mul button
+    function mul(){
+        let a = document.getElementById("first").value;
+        let b = document.getElementById("second").value;
+        let c = parseInt(a)*parseInt(b);
         document.getElementById("result").value = c;
     }
