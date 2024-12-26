@@ -22,3 +22,9 @@ console.log(prop(2,5));
         document.getElementById("result").value = c;
     }
     //sub button
+    function sub(){
+        let a = document.getElementById("first").value;
+        let b = document.getElementById("second").value;
+        let c = parseInt(a)-parseInt(b);
+        document.getElementById("result").value = c;
+    }
