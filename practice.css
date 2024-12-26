@@ -41,3 +41,8 @@
     width: 10%;
 }
 
+.cover:hover{
+    transform: scale(1.5);
+}
+
+
